@@ -7,7 +7,7 @@ export default function Gallery() {
   const images = siteConfig.gallery.images;
 
   return (
-    <section className={`bg-white py-24 px-6 md:px-12 border-t ${siteConfig.styles.borderLight}`}>
+    <section className={`${siteConfig.styles.bgLight} py-24 px-6 md:px-12 border-t ${siteConfig.styles.borderLight}`}>
       <div className="max-w-6xl mx-auto text-center">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {images.map(({ src, alt }, i) => (
