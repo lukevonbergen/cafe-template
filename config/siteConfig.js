@@ -10,32 +10,23 @@ export const siteConfig = {
     headingClass: 'font-serif',
   },
 
-  // BRAND COLOURS FOR DEBUGGING
   brand: {
-    primary: '#3b2f2f',       // Rich Coffee (used for headings/buttons)
-    secondary: '#f3eee7',     // Café Cream (default backgrounds)
-    accent: '#b85c38',        // Burnt Orange (used in CTAs/links)
-    textDark: '#2e2a27',      // Deep brown text
-    textLight: '#fff9f3',     // Light text on dark backgrounds
-    muted: '#857b74',         // Subtle text or borders
+    primary: 'text-rose-700',         // Used in hero headings, CTA borders
+    secondary: 'bg-yellow-100',       // Backgrounds for light sections
+    accent: 'bg-amber-400',           // Call-to-action buttons or tags
+    textDark: 'text-neutral-900',     // Default dark text
+    textLight: 'text-slate-100',      // Light text on dark backgrounds
+    muted: 'text-gray-400',           // Subtle/inactive text
   },
 
-  // STYLES — TEMPORARY DEBUG COLOURS FOR TESTING
   styles: {
-    // Each style has a unique colour so you can test its presence
-
-    // Backgrounds
-    bgLight: 'bg-[#E0FFFF]',         // Light Cyan - SHOULD style sections like About, Hero
-    bgPrimary: 'bg-[#FFDEAD]',       // Navajo White - SHOULD style buttons, banner strip
-
-    // Text
-    textPrimary: 'text-[#DC143C]',   // Crimson - SHOULD style headings
-    textMuted: 'text-[#808000]',     // Olive - SHOULD style muted footers, subtle copy
-    textSubtle: 'text-[#483D8B]',    // Dark Slate Blue - SHOULD style body text
-
-    // Borders
-    borderLight: 'border-[#00CED1]', // Dark Turquoise - SHOULD style gallery/about borders
-    borderDark: 'border-[#800080]',  // Purple - SHOULD style dividers on light backgrounds
+    bgLight: 'bg-yellow-100',         // Background for Hero/About
+    bgPrimary: 'bg-rose-700',         // Background for buttons, banner strip
+    textPrimary: 'text-rose-700',     // Headings
+    textMuted: 'text-gray-500',       // Footer & captions
+    textSubtle: 'text-indigo-700',    // Body text
+    borderLight: 'border-blue-300',   // Light section dividers
+    borderDark: 'border-purple-500',  // Section tops or darker borders
   },
 
   banner: {
@@ -110,7 +101,7 @@ export const siteConfig = {
     openingHours: [
       'Monday–Sunday: 8:00 AM – 4:00 PM',
     ],
-    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Jester,+173+High+St,+Berkhamsted+HP4+3HB,+UK&key=YOUR_GOOGLE_MAPS_API_KEY',
+    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Jester,+173+High+St,+Berkhamsted+HP4+3HB,+UK&key=YOUR_API_KEY',
   },
 
   gallery: {
