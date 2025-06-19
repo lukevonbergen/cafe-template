@@ -21,7 +21,8 @@ export default function BannerStrip() {
         className="ml-4 text-lg font-bold hover:opacity-70 transition"
         aria-label="Close"
       >
-        ×
+        &times;
       </button>
     </div>
   );
+}
