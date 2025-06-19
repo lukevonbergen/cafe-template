@@ -10,23 +10,32 @@ export const siteConfig = {
     headingClass: 'font-serif',
   },
 
+  // BRAND COLOURS FOR DEBUGGING
   brand: {
-    primary: '#3b2f2f',       // Deep Coffee
-    secondary: '#f5f1ea',     // Cream
-    accent: '#c96f42',        // Burnt Sienna
-    textDark: '#2e2a27',      // Mocha
-    textLight: '#fdfaf6',     // Linen
-    muted: '#888079',         // Warm Grey
+    primary: '#3b2f2f',       // Rich Coffee (used for headings/buttons)
+    secondary: '#f3eee7',     // Café Cream (default backgrounds)
+    accent: '#b85c38',        // Burnt Orange (used in CTAs/links)
+    textDark: '#2e2a27',      // Deep brown text
+    textLight: '#fff9f3',     // Light text on dark backgrounds
+    muted: '#857b74',         // Subtle text or borders
   },
 
+  // STYLES — TEMPORARY DEBUG COLOURS FOR TESTING
   styles: {
-    bgLight: 'bg-[#f5f1ea]',
-    textPrimary: 'text-[#3b2f2f]',
-    bgPrimary: 'bg-[#3b2f2f]',
-    borderLight: 'border-[#e8e4db]',
-    borderDark: 'border-[#d2cfc7]',
-    textMuted: 'text-[#888079]',
-    textSubtle: 'text-[#4f4744]',
+    // Each style has a unique colour so you can test its presence
+
+    // Backgrounds
+    bgLight: 'bg-[#E0FFFF]',         // Light Cyan - SHOULD style sections like About, Hero
+    bgPrimary: 'bg-[#FFDEAD]',       // Navajo White - SHOULD style buttons, banner strip
+
+    // Text
+    textPrimary: 'text-[#DC143C]',   // Crimson - SHOULD style headings
+    textMuted: 'text-[#808000]',     // Olive - SHOULD style muted footers, subtle copy
+    textSubtle: 'text-[#483D8B]',    // Dark Slate Blue - SHOULD style body text
+
+    // Borders
+    borderLight: 'border-[#00CED1]', // Dark Turquoise - SHOULD style gallery/about borders
+    borderDark: 'border-[#800080]',  // Purple - SHOULD style dividers on light backgrounds
   },
 
   banner: {
@@ -101,7 +110,7 @@ export const siteConfig = {
     openingHours: [
       'Monday–Sunday: 8:00 AM – 4:00 PM',
     ],
-    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Jester,+173+High+St,+Berkhamsted+HP4+3HB,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Jester,+173+High+St,+Berkhamsted+HP4+3HB,+UK&key=YOUR_GOOGLE_MAPS_API_KEY',
   },
 
   gallery: {
