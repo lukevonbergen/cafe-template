@@ -4,10 +4,10 @@ export const siteConfig = {
   siteName: 'The Jester Berkhamsted',
 
   brand: {
-    primary: '#6b4f4f',       // rich mocha brown
-    secondary: '#fff7f0',      // soft cream background
-    accent: '#d8a47f',         // warm caramel
-    text: '#3e2c2c',           // dark roast brown
+    primary: '#FF0000',       // Red
+    secondary: '#0000FF',      // Blue
+    accent: '#00FF00',         // Green
+    text: '#FFFF00',           // Yellow
   },
 
   banner: {
