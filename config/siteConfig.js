@@ -3,11 +3,30 @@
 export const siteConfig = {
   siteName: 'The Jester Berkhamsted',
 
+  fonts: {
+    base: `'Inter', sans-serif`,
+    heading: `'Playfair Display', serif`,
+    baseClass: 'font-sans',
+    headingClass: 'font-serif',
+  },
+
   brand: {
-    primary: '#FF0000',       // Red
-    secondary: '#0000FF',      // Blue
-    accent: '#00FF00',         // Green
-    text: '#FFFF00',           // Yellow
+    primary: '#4b2e2e',
+    secondary: '#f9f7f4',
+    accent: '#e0cba8',
+    textDark: '#2d2d2d',
+    textLight: '#ffffff',
+    muted: '#777',
+  },
+
+  styles: {
+    bgLight: 'bg-[#f9f7f4]',
+    textPrimary: 'text-[#4b2e2e]',
+    bgPrimary: 'bg-[#4b2e2e]',
+    borderLight: 'border-gray-100',
+    borderDark: 'border-gray-200',
+    textMuted: 'text-gray-600',
+    textSubtle: 'text-gray-700',
   },
 
   banner: {

@@ -4,24 +4,24 @@ export default function HowToFindUs() {
   const { heading, text, address, openingHours, mapEmbedUrl } = siteConfig.location;
 
   return (
-    <section className="bg-[#f9f7f4] py-24 px-6 md:px-12 border-t border-gray-200">
+    <section className={`${siteConfig.styles.bgLight} py-24 px-6 md:px-12 border-t ${siteConfig.styles.borderDark}`}>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        <div className="md:w-1/2 text-center md:text-left text-[#4b2e2e]">
+        <div className={`md:w-1/2 text-center md:text-left ${siteConfig.styles.textPrimary}`}>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
             {heading}
           </h2>
-          <p className="text-lg text-gray-700 mb-4">{text}</p>
-          <p className="text-md text-gray-700 leading-relaxed">
+          <p className={`text-lg ${siteConfig.styles.textSubtle} mb-4`}>{text}</p>
+          <p className={`text-md ${siteConfig.styles.textSubtle} leading-relaxed`}>
             <strong>Address:</strong><br />
-            {address.map((line, i) => <>{line}<br /></>)}
+            {address.map((line, i) => <span key={i}>{line}<br /></span>)}
             <br />
             <strong>Opening Hours:</strong><br />
-            {openingHours.map((line, i) => <>{line}<br /></>)}
+            {openingHours.map((line, i) => <span key={i}>{line}<br /></span>)}
           </p>
         </div>
         <div className="md:w-1/2 w-full h-80 md:h-96 rounded-lg overflow-hidden shadow-md border">
           <iframe
-            title="Wheldrakes Location"
+            title="Location Map"
             src={mapEmbedUrl}
             width="100%"
             height="100%"

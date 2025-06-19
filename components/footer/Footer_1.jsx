@@ -6,7 +6,7 @@ export default function Footer() {
   const footer = siteConfig.footer;
 
   return (
-    <footer className="bg-white border-t border-gray-200 py-12 px-6 md:px-12">
+    <footer className={`bg-white border-t ${siteConfig.styles.borderDark} py-12 px-6 md:px-12`}>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
         <p className="mb-4 md:mb-0">
           &copy; {new Date().getFullYear()} {footer.copyright}. All rights reserved.
