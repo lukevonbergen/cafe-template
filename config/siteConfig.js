@@ -11,22 +11,22 @@ export const siteConfig = {
   },
 
   brand: {
-    primary: '#4b2e2e',
-    secondary: '#f9f7f4',
-    accent: '#e0cba8',
-    textDark: '#2d2d2d',
-    textLight: '#ffffff',
-    muted: '#777',
+    primary: '#3b2f2f',       // Deep Coffee
+    secondary: '#f5f1ea',     // Cream
+    accent: '#c96f42',        // Burnt Sienna
+    textDark: '#2e2a27',      // Mocha
+    textLight: '#fdfaf6',     // Linen
+    muted: '#888079',         // Warm Grey
   },
 
   styles: {
-    bgLight: 'bg-[#f9f7f4]',
-    textPrimary: 'text-[#4b2e2e]',
-    bgPrimary: 'bg-[#4b2e2e]',
-    borderLight: 'border-gray-100',
-    borderDark: 'border-gray-200',
-    textMuted: 'text-gray-600',
-    textSubtle: 'text-gray-700',
+    bgLight: 'bg-[#f5f1ea]',
+    textPrimary: 'text-[#3b2f2f]',
+    bgPrimary: 'bg-[#3b2f2f]',
+    borderLight: 'border-[#e8e4db]',
+    borderDark: 'border-[#d2cfc7]',
+    textMuted: 'text-[#888079]',
+    textSubtle: 'text-[#4f4744]',
   },
 
   banner: {
