@@ -12,7 +12,7 @@ export default function HeroSection() {
   const hero = siteConfig.hero
 
   return (
-    <section className={`relative min-h-screen flex items-center justify-center text-center ${siteConfig.fonts.baseClass}`}> 
+    <section className={`relative -mt-28 min-h-screen flex items-center justify-center text-center ${siteConfig.fonts.baseClass}`}>
       <Image
         src={hero.image}
         alt={hero.imageAlt}

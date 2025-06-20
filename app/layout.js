@@ -35,8 +35,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${baseFont.variable} ${headingFont.variable} ${accentFont ? accentFont.variable : ''} ${siteConfig.fonts.baseClass} antialiased`}
       >
-        <Banner />
-        <Nav />
+        <div className="sticky top-0 z-50">
+          <Banner />
+          <Nav />
+        </div>
         <main>{children}</main>
         <Footer />
       </body>

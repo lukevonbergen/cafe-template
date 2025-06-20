@@ -7,7 +7,7 @@ export default function Navbar() {
   const nav = siteConfig.nav;
 
   return (
-    <header className={`${siteConfig.styles.bgLight} w-full py-3 px-4 md:px-8 sticky top-0 z-50`}>
+    <header className="w-full py-3 px-4 md:px-8">
       <div className="max-w-7xl mx-auto bg-white rounded-full shadow-md px-6 py-6 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <a href="/" className={`text-base font-semibold ${siteConfig.styles.textPrimary}`}>{siteConfig.siteName}</a>
