@@ -1,10 +1,8 @@
 import Gallery from "@/components/gallery/Gallery_1";
 import Location from '@/components/findus/FindUs_1'
+import { siteConfig } from '@/config/siteConfig'
 
-export const metadata = {
-  title: "Gallery | Wheldrakes",
-  description: "Browse our cosy café, brunch plates, cakes and more from Wheldrakes in York.",
-};
+export const metadata = siteConfig.metadata.gallery;
 
 export default function GalleryPage() {
   return (

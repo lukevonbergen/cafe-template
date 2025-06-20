@@ -4,6 +4,33 @@ export const siteConfig = {
   // Site Name
   siteName: 'The Jester Berkhamsted',
 
+  // Metadata used across Next.js pages
+  metadata: {
+    base: {
+      title: 'Wheldrakes – Artisan Coffee & Brunch in York',
+      description:
+        'Wheldrakes is a beloved independent café in York, serving artisan coffee, fresh brunch, and homemade treats in a cosy, relaxed setting just minutes from York Minster.',
+      icons: {
+        icon: '/favicon.ico',
+      },
+    },
+    about: {
+      title: 'About | Wheldrakes',
+      description:
+        'Learn more about Wheldrakes Café in York – our story, our passion for fresh food and coffee, and the people behind the scenes.',
+    },
+    contact: {
+      title: 'Contact Us | Wheldrakes York',
+      description:
+        'Find our café, contact us via phone or email, and see where we are in York.',
+    },
+    gallery: {
+      title: 'Gallery | Wheldrakes',
+      description:
+        'Browse our cosy café, brunch plates, cakes and more from Wheldrakes in York.',
+    },
+  },
+
   // Font settings (used for global Tailwind utility control)
   fonts: {
     base: `'Inter', sans-serif`,                  // For body text
