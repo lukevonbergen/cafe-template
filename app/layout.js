@@ -1,12 +1,22 @@
 import './globals.css';
-import { Inter, Playpen_Sans } from 'next/font/google';
+import { Inter, Playpen_Sans, Playfair_Display } from 'next/font/google';
 import Nav from '@/components/navigation/Nav_1';
 import Footer from '@/components/footer/Footer_1';
 import Banner from '@/components/banner/Banner_1';
+import { siteConfig } from '@/config/siteConfig';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playpen = Playpen_Sans({
-  weight: '400',
+const fontMap = { Inter, Playpen_Sans, Playfair_Display };
+const baseFont = siteConfig.fonts.google.base;
+const headingFont = siteConfig.fonts.google.heading;
+
+const inter = fontMap[baseFont.family]({
+  weight: baseFont.weights,
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
+
+const playpen = fontMap[headingFont.family]({
+  weight: headingFont.weights,
   subsets: ['latin'],
   variable: '--font-playpen',
 });

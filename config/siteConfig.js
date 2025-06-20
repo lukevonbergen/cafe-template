@@ -10,6 +10,10 @@ export const siteConfig = {
     heading: `'Playfair Display', serif`,         // For headings if needed
     baseClass: 'font-sans',                       // Tailwind utility for base text
     headingClass: 'font-serif',                   // Tailwind utility for styled headings
+    google: {
+      base: { family: 'Inter', weights: ['400'] },
+      heading: { family: 'Playpen_Sans', weights: ['400'] },
+    },
   },
 
   // Brand Colours (used in components as visual identity)

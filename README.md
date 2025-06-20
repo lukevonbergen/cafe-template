@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Font Configuration
+
+Fonts are defined in `config/siteConfig.js` under the `fonts` key. Each Google
+font specifies the `family` name as exported from
+[`next/font/google`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+and an array of `weights` to load:
+
+```js
+fonts: {
+  base: `'Inter', sans-serif`,
+  heading: `'Playfair Display', serif`,
+  baseClass: 'font-sans',
+  headingClass: 'font-serif',
+  google: {
+    base: { family: 'Inter', weights: ['400'] },
+    heading: { family: 'Playpen_Sans', weights: ['400'] },
+  },
+}
+```
+
+`app/layout.js` reads these values to load the appropriate fonts.
