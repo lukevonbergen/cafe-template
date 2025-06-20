@@ -46,7 +46,7 @@ export const siteConfig = {
 
   // Brand Colours (used in components as visual identity)
   brand: {
-    primary: 'text-sky-900',      // Used for headings (deep coastal blue)
+    primary: 'sky-900',           // Used for headings (deep coastal blue)
     secondary: 'bg-teal-50',      // Section backgrounds (soft seafoam)
     accent: 'bg-sky-600',         // CTAs, buttons (bright ocean blue)
     textDark: 'text-gray-900',    // Strong default text
@@ -103,16 +103,18 @@ export const siteConfig = {
 
   // Hero section content
   hero: {
-    heading: 'Fresh Brews & Coastal Views',
-    subheading: 'Welcome to Seaside Brew — your go-to spot for speciality coffee, all-day brunch and homemade treats right by Brighton beach.',
-    ctaPrimary: { label: 'Browse Our Menu', href: '/menu' },
-    ctaSecondary: { label: 'See the Space', href: '/gallery' },
-    image: 'https://images.pexels.com/photos/5857506/pexels-photo-5857506.jpeg',  // Hero image
-    tagline: 'Independent • Brighton Born • Beachside',
+    heading: 'Baked Fresh Every Morning',
+    subheading:
+      'Welcome to Seaside Bakehouse — artisanal breads, pastries and coffee served daily by the coast.',
+    ctaPrimary: { label: 'View Menu', href: '/menu' },
+    ctaSecondary: { label: 'Our Gallery', href: '/gallery' },
+    image: 'https://images.pexels.com/photos/954199/pexels-photo-954199.jpeg',
+    imageAlt: 'Baker holding a tray of fresh bread',
+    tagline: 'Artisan Bakery • Coastal Flavours',
     values: [
       { icon: 'Coffee', label: 'Specialty Coffee' },
-      { icon: 'Users', label: 'Friendly Staff' },
-      { icon: 'Heart', label: 'Community Favourite' },
+      { icon: 'Heart', label: 'Baked with Love' },
+      { icon: 'Users', label: 'Community Hub' },
     ],
   },
 
