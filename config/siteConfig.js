@@ -2,32 +2,32 @@
 
 export const siteConfig = {
   // Site Name
-  siteName: 'The Jester Berkhamsted',
+  siteName: 'Seaside Brew Brighton',
 
   // Metadata used across Next.js pages
   metadata: {
     base: {
-      title: 'Wheldrakes – Artisan Coffee & Brunch in York',
+      title: 'Seaside Brew – Coffee & Brunch by the Sea in Brighton',
       description:
-        'Wheldrakes is a beloved independent café in York, serving artisan coffee, fresh brunch, and homemade treats in a cosy, relaxed setting just minutes from York Minster.',
+        'Seaside Brew is a friendly independent café in Brighton serving speciality coffee, hearty brunches and homemade bakes just steps from the beach.',
       icons: {
         icon: '/favicon.ico',
       },
     },
     about: {
-      title: 'About | Wheldrakes',
+      title: 'About | Seaside Brew',
       description:
-        'Learn more about Wheldrakes Café in York – our story, our passion for fresh food and coffee, and the people behind the scenes.',
+        'Learn more about Seaside Brew in Brighton – our seaside story, our love of great coffee and brunch, and the team behind the counter.',
     },
     contact: {
-      title: 'Contact Us | Wheldrakes York',
+      title: 'Contact Us | Seaside Brew',
       description:
-        'Find our café, contact us via phone or email, and see where we are in York.',
+        'Find our Brighton café, get in touch by phone or email, and see where we are along the seafront.',
     },
     gallery: {
-      title: 'Gallery | Wheldrakes',
+      title: 'Gallery | Seaside Brew',
       description:
-        'Browse our cosy café, brunch plates, cakes and more from Wheldrakes in York.',
+        'Peek inside Seaside Brew and see our beachy café, tasty brunches and local coffee moments.',
     },
   },
 
@@ -41,29 +41,29 @@ export const siteConfig = {
 
   // Brand Colours (used in components as visual identity)
   brand: {
-    primary: 'text-amber-900',      // Used for headings (deep caramel brown)
-    secondary: 'bg-orange-50',      // Section backgrounds (warm cream tone)
-    accent: 'bg-amber-500',         // CTAs, buttons (warm amber)
-    textDark: 'text-zinc-900',      // Strong default text
-    textLight: 'text-white',        // Light-on-dark contrast
-    muted: 'text-zinc-400',         // Used for captions, footers
+    primary: 'text-sky-900',      // Used for headings (deep coastal blue)
+    secondary: 'bg-teal-50',      // Section backgrounds (soft seafoam)
+    accent: 'bg-sky-600',         // CTAs, buttons (bright ocean blue)
+    textDark: 'text-gray-900',    // Strong default text
+    textLight: 'text-white',      // Light-on-dark contrast
+    muted: 'text-gray-400',       // Used for captions, footers
   },
 
   // Class tokens mapped to Tailwind utility classes
   styles: {
-    bgLight: 'bg-orange-50',              // Background for Hero, About, etc.
-    bgPrimary: 'bg-amber-800',            // Background for buttons and banner
-    textPrimary: 'text-amber-900',        // Used in headings and CTAs
-    textMuted: 'text-zinc-500',           // For footer/subtle copy
-    textSubtle: 'text-neutral-700',       // For general body content
-    borderLight: 'border-zinc-200',       // Gallery, About, etc.
-    borderDark: 'border-zinc-400',        // Stronger dividers
+    bgLight: 'bg-teal-50',              // Background for Hero, About, etc.
+    bgPrimary: 'bg-sky-800',            // Background for buttons and banner
+    textPrimary: 'text-sky-900',        // Used in headings and CTAs
+    textMuted: 'text-gray-500',         // For footer/subtle copy
+    textSubtle: 'text-gray-700',        // For general body content
+    borderLight: 'border-gray-200',     // Gallery, About, etc.
+    borderDark: 'border-gray-400',      // Stronger dividers
   },
 
   // Banner strip at the top of the page
   banner: {
     show: true,
-    message: 'Now open every day from 8AM!',
+    message: 'Now serving Brighton from 7AM daily!',
     cta: {
       label: 'Explore Our Menu',
       href: '/menu',
@@ -98,12 +98,12 @@ export const siteConfig = {
 
   // Hero section content
   hero: {
-    heading: 'Cosy Coffee, Fresh Bakes, and Local Vibes',
-    subheading: 'Welcome to The Jester — your neighbourhood spot for artisan coffee, hearty brunches, and homemade treats in the heart of Berkhamsted.',
+    heading: 'Fresh Brews & Coastal Views',
+    subheading: 'Welcome to Seaside Brew — your go-to spot for speciality coffee, all-day brunch and homemade treats right by Brighton beach.',
     ctaPrimary: { label: 'Browse Our Menu', href: '/menu' },
     ctaSecondary: { label: 'See the Space', href: '/gallery' },
     image: 'https://images.pexels.com/photos/5857506/pexels-photo-5857506.jpeg',  // Hero image
-    tagline: 'Independent • Local • Loved',
+    tagline: 'Independent • Brighton Born • Beachside',
     values: [
       { icon: 'Coffee', label: 'Specialty Coffee' },
       { icon: 'Users', label: 'Friendly Staff' },
@@ -113,16 +113,16 @@ export const siteConfig = {
 
   // About Us content
   about: {
-    heading: 'Crafted with Care in Berkhamsted',
-    subheading: `At The Jester, it’s all about good vibes and great flavours. From rich coffee blends to fresh pastries and brunch classics, we’re a locally loved spot with an eye for quality and a heart for the community.`,
+    heading: 'Crafted with Care in Brighton',
+    subheading: `At Seaside Brew we mix Brighton's lively spirit with a love of quality. From locally roasted coffee to fresh pastries and brunch favourites, we're a welcoming hub for the community.`,
     features: [
       {
         title: 'Independent & Passionate',
-        text: 'Run by locals, for locals — The Jester is a laid-back hub where quality and community come first.',
+        text: 'Run by locals, for locals — Seaside Brew is a relaxed space where community and quality meet.',
       },
       {
         title: 'Brunch, Coffee, & Cakes',
-        text: 'Whether it’s your morning flat white, a weekend eggs benedict, or a sweet afternoon fix — we’ve got something for every mood.',
+        text: 'Whether it’s your morning flat white, a weekend eggs benedict or a sweet seaside treat — we’ve got something for every mood.',
       },
     ],
   },
@@ -130,15 +130,15 @@ export const siteConfig = {
   // Location / Contact section content
   location: {
     heading: 'Come Find Us',
-    text: 'You’ll find us right in the centre of Berkhamsted — the perfect pitstop for coffee, brunch, or a slice of cake.',
+    text: 'We are tucked just off the promenade — the perfect pitstop for coffee, brunch or a slice of cake by the sea.',
     address: [
-      'The Jester Café',
-      '173 High Street, Berkhamsted HP4 3HB, United Kingdom',
+      'Seaside Brew Café',
+      '23 Ocean View Terrace, Brighton BN1 1AA, United Kingdom',
     ],
     openingHours: [
-      'Monday–Sunday: 8:00 AM – 4:00 PM',
+      'Monday–Sunday: 7:00 AM – 5:00 PM',
     ],
-    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Jester,+173+High+St,+Berkhamsted+HP4+3HB,+UK&key=YOUR_API_KEY', // replace with real API key
+    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=Seaside+Brew,+23+Ocean+View+Terrace,+Brighton,+UK&key=YOUR_API_KEY', // replace with real API key
   },
 
   // Gallery image grid
@@ -156,7 +156,7 @@ export const siteConfig = {
   // Testimonials section
   testimonials: {
     heading: 'What People Are Saying',
-    subheading: 'Real words from happy guests who’ve visited The Jester.',
+    subheading: 'Real words from happy guests who’ve visited Seaside Brew.',
     entries: [
       {
         quote: "Absolutely beautiful brunch and the best coffee in town. The cakes are divine and the staff couldn’t be friendlier.",
