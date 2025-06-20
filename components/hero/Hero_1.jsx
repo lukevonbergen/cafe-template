@@ -13,7 +13,11 @@ export default function HeroSection() {
   const hero = siteConfig.hero;
 
   return (
-    <section className={`${siteConfig.styles.bgLight} py-24 px-6 md:px-12 ${siteConfig.fonts.baseClass}`}>
+    <section
+      className={`${siteConfig.styles.bgLight} relative min-h-screen flex items-center py-24 px-6 md:px-12 ${siteConfig.fonts.baseClass}`}
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-200 via-orange-100 to-transparent pointer-events-none" />
+      <div className="absolute -top-10 -left-10 w-40 h-40 bg-amber-300/50 rounded-full blur-2xl hidden md:block" />
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className={`text-4xl md:text-5xl font-extrabold ${siteConfig.styles.textPrimary} leading-tight mb-6`}>
@@ -44,15 +48,16 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="relative lg:w-1/2">
-          <div className="relative w-full max-w-md mx-auto">
+          <div className="relative w-full lg:max-w-xl mx-auto">
             <Image
               src={hero.image}
               alt="Hero Image"
               width={600}
               height={400}
-              className="rounded-2xl shadow-lg object-cover"
+              className="relative rounded-2xl shadow-lg object-cover"
             />
-            <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-white text-xs px-4 py-1 rounded-full shadow border font-semibold text-gray-600 tracking-wide">
+            <div className="absolute inset-0 rounded-2xl bg-black/20" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-amber-800 text-white text-sm px-4 py-1 rounded-full shadow-lg font-semibold tracking-wide">
               {hero.tagline}
             </div>
           </div>
