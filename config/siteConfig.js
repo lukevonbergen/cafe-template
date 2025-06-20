@@ -37,6 +37,11 @@ export const siteConfig = {
     heading: `'Playfair Display', serif`,         // For headings if needed
     baseClass: 'font-sans',                       // Tailwind utility for base text
     headingClass: 'font-serif',                   // Tailwind utility for styled headings
+    google: {
+      base: 'Inter',
+      heading: 'Playfair_Display',
+      accent: 'Playpen_Sans',
+    },
   },
 
   // Brand Colours (used in components as visual identity)
