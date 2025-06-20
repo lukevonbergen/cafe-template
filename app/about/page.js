@@ -1,10 +1,7 @@
 import Reviews from '@/components/testimonials/Testimonials_1'
+import { siteConfig } from '@/config/siteConfig'
 
-export const metadata = {
-  title: "About | Wheldrakes",
-  description:
-    "Learn more about Wheldrakes Café in York – our story, our passion for fresh food and coffee, and the people behind the scenes.",
-};
+export const metadata = siteConfig.metadata.about;
 
 export default function AboutPage() {
   return (

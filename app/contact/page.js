@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import FindUs from '@/components/findus/FindUs_1';
+import { siteConfig } from '@/config/siteConfig';
 
-export const metadata = {
-  title: 'Contact Us | Wheldrakes York',
-  description: 'Find our café, contact us via phone or email, and see where we are in York.',
-};
+export const metadata = siteConfig.metadata.contact;
 
 export default function ContactPage() {
   return (
