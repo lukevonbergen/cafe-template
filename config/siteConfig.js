@@ -33,14 +33,14 @@ export const siteConfig = {
 
   // Font settings (used for global Tailwind utility control)
   fonts: {
-    base: `'Titan One', cursive`,         // For body text (semantic fallback)
-    heading: `'Titan One', cursive`,      // For headings
-    baseClass: 'font-titan',              // Tailwind utility class for all text
-    headingClass: 'font-titan',           // Tailwind utility class for headings
+    base: `'Urbanist', sans-serif`,
+    heading: `'Shrikhand', cursive`,
+    baseClass: 'font-urbanist',
+    headingClass: 'font-shrikhand',
     google: {
-      base: 'Titan_One',
-      heading: 'Titan_One',
-      accent: 'Titan_One',
+      base: 'Urbanist',
+      heading: 'Shrikhand',
+      accent: 'Urbanist',
     },
   },
 

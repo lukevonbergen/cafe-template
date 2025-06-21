@@ -1,46 +1,45 @@
-import './globals.css';
-import { Inter, Playpen_Sans, Playfair_Display, Titan_One } from 'next/font/google';
-import Nav from '@/components/navigation/Nav_1';
-import Footer from '@/components/footer/Footer_1';
-import Banner from '@/components/banner/Banner_1';
-import { siteConfig } from '@/config/siteConfig';
+import './globals.css'
+import { Urbanist, Shrikhand } from 'next/font/google'
+import Nav from '@/components/navigation/Nav_1'
+import Footer from '@/components/footer/Footer_1'
+import Banner from '@/components/banner/Banner_1'
+import { siteConfig } from '@/config/siteConfig'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const playpen = Playpen_Sans({
+// Load fonts
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+})
+
+const shrikhand = Shrikhand({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-playpen',
-});
-const playfair = Playfair_Display({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-playfair',
-});
+  variable: '--font-shrikhand',
+})
 
-const titan = Titan_One({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-titan',
-});
-
+// Font map based on siteConfig.google.fonts keys
 const fontMap = {
-  Inter: inter,
-  Playpen_Sans: playpen,
-  Playfair_Display: playfair,
-  Titan_One: titan,
-};
+  Urbanist: urbanist,
+  Shrikhand: shrikhand,
+}
 
-const baseFont = fontMap[siteConfig.fonts.google.base];
-const headingFont = fontMap[siteConfig.fonts.google.heading];
-const accentFont = fontMap[siteConfig.fonts.google.accent];
+const baseFont = fontMap[siteConfig.fonts.google.base]
+const headingFont = fontMap[siteConfig.fonts.google.heading]
+const accentFont = fontMap[siteConfig.fonts.google.accent]
 
-export const metadata = siteConfig.metadata.base;
+export const metadata = siteConfig.metadata.base
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${baseFont.variable} ${headingFont.variable} ${accentFont ? accentFont.variable : ''} ${siteConfig.fonts.baseClass} antialiased`}
+        className={`
+          ${baseFont.variable}
+          ${headingFont.variable}
+          ${accentFont ? accentFont.variable : ''}
+          ${siteConfig.fonts.baseClass}
+          antialiased
+        `}
       >
         <div className="sticky top-0 z-50">
           <Banner />
@@ -50,5 +49,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  );
+  )
 }
