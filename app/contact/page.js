@@ -8,11 +8,11 @@ export default function ContactPage() {
   return (
     <main>
       {/* Intro Section */}
-      <section className="bg-[#f9f7f4] py-24 px-6 md:px-12">
+      <section className="bg-[#f3e9dc] py-24 px-6 md:px-12">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-sky-900 mb-6">We’d Love to Hear from You</h1>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Whether you’re booking a table, asking about allergens, or just saying hello — we’re always here.
+          <h1 className="text-4xl md:text-5xl font-bold text-[#5E3023] mb-6">We’d Love to Hear from You</h1>
+          <p className="text-lg text-[#362415] max-w-2xl mx-auto">
+            Whether you’re booking a table, asking about allergens or just saying hello — we’re always here.
           </p>
         </div>
       </section>
@@ -23,22 +23,22 @@ export default function ContactPage() {
           
           {/* Left: Contact Details */}
           <div>
-            <h2 className="text-2xl font-semibold text-sky-900 mb-6">Where to Find Us</h2>
-            <p className="text-md text-gray-700 mb-4">
-              You’ll find us on Ocean View Terrace — just a short stroll from the Brighton Pier.
-              Whether you're stopping in for a flat white or a full brunch, we're right by the sea.
+            <h2 className="text-2xl font-semibold text-[#5E3023] mb-6">Where to Find Us</h2>
+            <p className="text-md text-[#362415] mb-4">
+              You’ll find us on Castle Street in the heart of High Wycombe.
+              Pop in for coffee, cocktails or one of our many events.
             </p>
             <p className="text-md text-gray-700 mb-4">
               <strong>Address:</strong><br />
-              23 Ocean View Terrace, Brighton BN1 1AA, United Kingdom
+              9 Castle Street, High Wycombe HP13 6RZ, United Kingdom
             </p>
             <p className="text-md text-gray-700 mb-4">
               <strong>Phone:</strong><br />
-              <a href="tel:+441273123456" className="text-sky-900 hover:underline">01273 123456</a>
+              <a href="tel:+441494123456" className="text-[#5E3023] hover:underline">01494 123456</a>
             </p>
             <p className="text-md text-gray-700">
               <strong>Email:</strong><br />
-              <a href="mailto:hello@seasidebrew.co.uk" className="text-sky-900 hover:underline">hello@seasidebrew.co.uk</a>
+              <a href="mailto:hello@thefrontroomhw.co.uk" className="text-[#5E3023] hover:underline">hello@thefrontroomhw.co.uk</a>
             </p>
           </div>
 

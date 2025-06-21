@@ -2,32 +2,32 @@
 
 export const siteConfig = {
   // Site Name
-  siteName: 'Seaside Brew Brighton',
+  siteName: 'The Front Room',
 
   // Metadata used across Next.js pages
   metadata: {
     base: {
-      title: 'Seaside Brew – Coffee & Brunch by the Sea in Brighton',
+      title: 'The Front Room – Coffee Lounge in High Wycombe',
       description:
-        'Seaside Brew is a friendly independent café in Brighton serving speciality coffee, hearty brunches and homemade bakes just steps from the beach.',
+        'The Front Room is an award-winning independent coffee lounge in High Wycombe offering specialty coffee, cocktails, brunch and community events in a plant-filled, dog-friendly space.',
       icons: {
         icon: '/favicon.ico',
       },
     },
     about: {
-      title: 'About | Seaside Brew',
+      title: 'About | The Front Room',
       description:
-        'Learn more about Seaside Brew in Brighton – our seaside story, our love of great coffee and brunch, and the team behind the counter.',
+        'Learn about The Front Room in High Wycombe – our passion for plants, sustainability, inclusivity and great coffee.',
     },
     contact: {
-      title: 'Contact Us | Seaside Brew',
+      title: 'Contact Us | The Front Room',
       description:
-        'Find our Brighton café, get in touch by phone or email, and see where we are along the seafront.',
+        'Get in touch with The Front Room or find us in the heart of High Wycombe.',
     },
     gallery: {
-      title: 'Gallery | Seaside Brew',
+      title: 'Gallery | The Front Room',
       description:
-        'Peek inside Seaside Brew and see our beachy café, tasty brunches and local coffee moments.',
+        'Explore our cosy lounge, vibrant events and lush plant décor.',
     },
   },
 
@@ -46,21 +46,21 @@ export const siteConfig = {
 
   // Brand Colours (used in components as visual identity)
   brand: {
-    primary: 'sky-900',           // Used for headings (deep coastal blue)
-    secondary: 'bg-teal-50',      // Section backgrounds (soft seafoam)
-    accent: 'bg-sky-600',         // CTAs, buttons (bright ocean blue)
-    textDark: 'text-gray-900',    // Strong default text
-    textLight: 'text-white',      // Light-on-dark contrast
-    muted: 'text-gray-400',       // Used for captions, footers
+    primary: '[#5E3023]',           // Used for headings (deep coastal blue)
+    secondary: 'bg-[#C08552]',      // Section backgrounds (soft seafoam)
+    accent: 'bg-[#78ADA5]',         // CTAs, buttons (bright ocean blue)
+    textDark: 'text-[#362415]',    // Strong default text
+    textLight: 'text-[#F3E9DC]',      // Light-on-dark contrast
+    muted: 'text-gray-500',       // Used for captions, footers
   },
 
   // Class tokens mapped to Tailwind utility classes
   styles: {
-    bgLight: 'bg-teal-50',              // Background for Hero, About, etc.
-    bgPrimary: 'bg-sky-800',            // Background for buttons and banner
-    textPrimary: 'text-sky-900',        // Used in headings and CTAs
-    textMuted: 'text-gray-500',         // For footer/subtle copy
-    textSubtle: 'text-gray-700',        // For general body content
+    bgLight: 'bg-[#F3E9DC]',              // Background for Hero, About, etc.
+    bgPrimary: 'bg-[#78ADA5]',            // Background for buttons and banner
+    textPrimary: 'text-[#5E3023]',        // Used in headings and CTAs
+    textMuted: 'text-gray-600',         // For footer/subtle copy
+    textSubtle: 'text-[#362415]',        // For general body content
     borderLight: 'border-gray-200',     // Gallery, About, etc.
     borderDark: 'border-gray-400',      // Stronger dividers
   },
@@ -68,7 +68,7 @@ export const siteConfig = {
   // Banner strip at the top of the page
   banner: {
     show: true,
-    message: 'Now serving Brighton from 7AM daily!',
+    message: 'Award-winning coffee lounge and events space in High Wycombe.',
     cta: {
       label: 'Explore Our Menu',
       href: '/menu',
@@ -103,49 +103,49 @@ export const siteConfig = {
 
   // Hero section content
   hero: {
-    heading: 'Baked Fresh Every Morning',
+    heading: 'Welcome to The Front Room',
     subheading:
-      'Welcome to Seaside Bakehouse — artisanal breads, pastries and coffee served daily by the coast.',
+      'Your award-winning independent coffee lounge in High Wycombe. A plant-filled, dog-friendly space to sip, snack, work and connect.',
     ctaPrimary: { label: 'View Menu', href: '/menu' },
     ctaSecondary: { label: 'Our Gallery', href: '/gallery' },
-    image: 'https://images.pexels.com/photos/954199/pexels-photo-954199.jpeg',
-    imageAlt: 'Baker holding a tray of fresh bread',
-    tagline: 'Artisan Bakery • Coastal Flavours',
+    image: 'https://images.unsplash.com/photo-1507133750040-4a2d1b0e1cfe?auto=format&fit=crop&w=1200&q=80',
+    imageAlt: 'Cozy coffee lounge interior',
+    tagline: 'A space to feel good',
     values: [
       { icon: 'Coffee', label: 'Specialty Coffee' },
-      { icon: 'Heart', label: 'Baked with Love' },
+      { icon: 'Heart', label: 'Dog Friendly' },
       { icon: 'Users', label: 'Community Hub' },
     ],
   },
 
   // About Us content
   about: {
-    heading: 'Crafted with Care in Brighton',
-    subheading: `At Seaside Brew we mix Brighton's lively spirit with a love of quality. From locally roasted coffee to fresh pastries and brunch favourites, we're a welcoming hub for the community.`,
+    heading: 'A Space to Feel Good',
+    subheading: `We’re a community-centred, eco-conscious lounge with a passion for coffee, plants, folk, dogs and local makers. Inclusive and quirky: queer-friendly, body-positive, neurodivergent safe space.`,
     features: [
       {
-        title: 'Independent & Passionate',
-        text: 'Run by locals, for locals — Seaside Brew is a relaxed space where community and quality meet.',
+        title: 'Sustainably Minded',
+        text: 'We source locally and keep things green—from our décor to our packaging.',
       },
       {
-        title: 'Brunch, Coffee, & Cakes',
-        text: 'Whether it’s your morning flat white, a weekend eggs benedict or a sweet seaside treat — we’ve got something for every mood.',
+        title: 'Events & Workshops',
+        text: 'Join us for sushi-making, life drawing, terrarium nights and more in our flexible space.',
       },
     ],
   },
 
   // Location / Contact section content
   location: {
-    heading: 'Come Find Us',
-    text: 'We are tucked just off the promenade — the perfect pitstop for coffee, brunch or a slice of cake by the sea.',
+    heading: 'Visit Us',
+    text: 'Find us on Castle Street for specialty coffee, brunch and events in a dog-friendly, plant-filled lounge.',
     address: [
-      'Seaside Brew Café',
-      '23 Ocean View Terrace, Brighton BN1 1AA, United Kingdom',
+      'The Front Room',
+      '9 Castle Street, High Wycombe HP13 6RZ, United Kingdom',
     ],
     openingHours: [
-      'Monday–Sunday: 7:00 AM – 5:00 PM',
+      'Monday–Sunday: 8:00 AM – 7:30 PM',
     ],
-    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=Seaside+Brew,+23+Ocean+View+Terrace,+Brighton,+UK&key=YOUR_API_KEY', // replace with real API key
+    mapEmbedUrl: 'https://www.google.com/maps/embed/v1/place?q=The+Front+Room+High+Wycombe&key=YOUR_API_KEY', // replace with real API key
   },
 
   // Gallery image grid
@@ -163,7 +163,7 @@ export const siteConfig = {
   // Testimonials section
   testimonials: {
     heading: 'What People Are Saying',
-    subheading: 'Real words from happy guests who’ve visited Seaside Brew.',
+    subheading: 'Feedback from folks who love our cosy lounge.',
     entries: [
       {
         quote: "Absolutely beautiful brunch and the best coffee in town. The cakes are divine and the staff couldn’t be friendlier.",
