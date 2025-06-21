@@ -5,7 +5,7 @@ export default function HeroSection() {
   const hero = siteConfig.hero
 
   return (
-    <section className="relative min-h-[calc(100vh-104px)] flex items-center justify-center text-white">
+    <section className="relative min-h-[75vh] flex items-center justify-center text-white">
       {/* Background image */}
       <Image
         src={hero.image}
