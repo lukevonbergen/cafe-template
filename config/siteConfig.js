@@ -103,19 +103,11 @@ export const siteConfig = {
 
   // Hero section content
   hero: {
-    heading: 'Welcome to The Front Room',
-    subheading:
-      'Your award-winning independent coffee lounge in High Wycombe. A plant-filled, dog-friendly space to sip, snack, work and connect.',
-    ctaPrimary: { label: 'View Menu', href: '/menu' },
-    ctaSecondary: { label: 'Our Gallery', href: '/gallery' },
-    image: 'https://images.unsplash.com/photo-1507133750040-4a2d1b0e1cfe?auto=format&fit=crop&w=1200&q=80',
-    imageAlt: 'Cozy coffee lounge interior',
-    tagline: 'A space to feel good',
-    values: [
-      { icon: 'Coffee', label: 'Specialty Coffee' },
-      { icon: 'Heart', label: 'Dog Friendly' },
-      { icon: 'Users', label: 'Community Hub' },
-    ],
+    image: 'https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg', // replace with actual path
+    imageAlt: 'Close-up espresso machine',
+    heading: 'LIFE BEGINS AFTER FLAVOUR',
+    subheading: '', // Not used here
+    tagline: '', // Not used here
   },
 
   // About Us content
