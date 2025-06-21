@@ -22,7 +22,7 @@ export default function HeroSection() {
       <div className="relative z-10 text-center px-6 md:px-12">
         <h1 className={`text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight uppercase tracking-wide ${fonts.headingClass}`}>
           {hero.heading}{' '}
-          <span className={styles.textPrimary}>{hero.highlightWord}</span>
+          <span className={styles.bgPrimary}>{hero.highlightWord}</span>
         </h1>
 
         {/* Mobile blurb below heading */}
