@@ -96,10 +96,14 @@ export const siteConfig = {
       { label: 'Contact', href: '/contact' },
     ],
     social: {
-      instagram: '',   // Add full Instagram URL
-      facebook: '',    // Add full Facebook URL
-      tripadvisor: '', // Add full TripAdvisor URL
-    },
+      instagram: '',      // Full URL
+      facebook: '',       // Full URL
+      tripadvisor: '',    // Full URL
+      linkedin: '',       // Full URL
+      tiktok: '',         // Full URL
+      youtube: '',        // Optional
+      twitter: '',        // Optional
+      },
   },
 
   hero: {
