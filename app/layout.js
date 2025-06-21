@@ -41,10 +41,17 @@ export default function RootLayout({ children }) {
           antialiased
         `}
       >
-        <div className="sticky top-0 z-50">
+        {/* Desktop: Banner + Nav Sticky */}
+        <div className="hidden md:block sticky top-0 z-50">
           <Banner />
           <Nav />
         </div>
+
+        {/* Mobile: Only Nav Sticky */}
+        <div className="block md:hidden sticky top-0 z-50">
+          <Nav />
+        </div>
+
         <main>{children}</main>
         <Footer />
       </body>
