@@ -33,14 +33,14 @@ export const siteConfig = {
 
   // Font settings (used for global Tailwind utility control)
   fonts: {
-    base: `'Inter', sans-serif`,                  // For body text
-    heading: `'Playfair Display', serif`,         // For headings if needed
-    baseClass: 'font-sans',                       // Tailwind utility for base text
-    headingClass: 'font-serif',                   // Tailwind utility for styled headings
+    base: `'Titan One', cursive`,         // For body text (semantic fallback)
+    heading: `'Titan One', cursive`,      // For headings
+    baseClass: 'font-titan',              // Tailwind utility class for all text
+    headingClass: 'font-titan',           // Tailwind utility class for headings
     google: {
-      base: 'Inter',
-      heading: 'Playfair_Display',
-      accent: 'Playpen_Sans',
+      base: 'Titan_One',
+      heading: 'Titan_One',
+      accent: 'Titan_One',
     },
   },
 

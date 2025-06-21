@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-playpen)', 'cursive'],
         inter: ['var(--font-inter)', 'sans-serif'],
+        titan: ['var(--font-titan)', 'cursive'],
       },
     },
   },

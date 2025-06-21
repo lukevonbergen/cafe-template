@@ -1,5 +1,5 @@
 import './globals.css';
-import { Inter, Playpen_Sans, Playfair_Display } from 'next/font/google';
+import { Inter, Playpen_Sans, Playfair_Display, Titan_One } from 'next/font/google';
 import Nav from '@/components/navigation/Nav_1';
 import Footer from '@/components/footer/Footer_1';
 import Banner from '@/components/banner/Banner_1';
@@ -17,10 +17,17 @@ const playfair = Playfair_Display({
   variable: '--font-playfair',
 });
 
+const titan = Titan_One({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-titan',
+});
+
 const fontMap = {
   Inter: inter,
   Playpen_Sans: playpen,
   Playfair_Display: playfair,
+  Titan_One: titan,
 };
 
 const baseFont = fontMap[siteConfig.fonts.google.base];
