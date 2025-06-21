@@ -182,4 +182,49 @@ export const siteConfig = {
       },
     ]
   },
+
+  // ➕ NEW: Hours & Location strip (used in HoursLocationBar.jsx)
+  hoursLocation: {
+    hours: 'Mon–Sun: 8 AM – 4 PM',
+    address: '173 High Street, Berkhamsted HP4 3HB',
+    email: 'hello@thejestercafe.co.uk',
+  },
+
+  // ➕ NEW: Intro features section (used in IntroFeatureSection.jsx)
+  intro: {
+    title: 'Enjoy the Rich and Robust Flavours',
+    description: 'Locally roasted coffee, supporting both your taste buds and the local community.',
+    features: [
+      { title: 'Premium Quality', text: 'Small-batch roasted beans, expertly brewed by trained baristas.' },
+      { title: 'Cozy Atmosphere', text: 'Relax with comfy seating, free Wi-Fi, and the scent of fresh pastries.' },
+      { title: 'Community Focused', text: 'Local suppliers, inclusive vibes, and regular community events.' },
+    ],
+  },
+
+  // ➕ NEW: Menu highlight section (used in MenuHighlightSection.jsx)
+  menuHighlights: {
+    title: 'Explore Our Favourites',
+    items: [
+      {
+        label: 'Espresso-Based',
+        image: 'https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg',
+      },
+      {
+        label: 'Brewed Coffee',
+        image: 'https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg',
+      },
+      {
+        label: 'Tea Selection',
+        image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg',
+      },
+      {
+        label: 'Pastries & Cakes',
+        image: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg',
+      },
+    ],
+    cta: {
+      label: 'See Full Menu',
+      href: '/menu',
+    },
+  },
 };
