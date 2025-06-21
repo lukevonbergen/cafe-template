@@ -57,7 +57,8 @@ export const siteConfig = {
   // Class tokens mapped to Tailwind utility classes
   styles: {
     bgLight: 'bg-[#F3E9DC]',              // Background for Hero, About, etc.
-    bgPrimary: 'bg-[#78ADA5]',            // Background for buttons and banner
+    bgPrimary: 'bg-[#78ADA5]',          
+    highlightColour: 'text-[#78ADA5]',         // Highlight colour for the hero word
     textPrimary: 'text-[#5E3023]',        // Used in headings and CTAs
     textMuted: 'text-gray-600',         // For footer/subtle copy
     textSubtle: 'text-[#362415]',        // For general body content
