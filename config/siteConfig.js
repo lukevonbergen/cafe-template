@@ -88,7 +88,7 @@ export const siteConfig = {
 
   // Footer links, social links, copyright
   footer: {
-    copyright: 'The Jester Berkhamsted',
+    copyright: 'The Front Room',
     nav: [
       { label: 'Menu', href: '/menu' },
       { label: 'About', href: '/about' },
