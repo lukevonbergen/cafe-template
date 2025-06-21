@@ -101,14 +101,24 @@ export const siteConfig = {
     },
   },
 
-  // Hero section content
   hero: {
-    image: 'https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg', // replace with actual path
+    image: 'https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg',
     imageAlt: 'Close-up espresso machine',
-    heading: 'LIFE BEGINS AFTER FLAVOUR',
-    subheading: '', // Not used here
-    tagline: '', // Not used here
+    heading: 'LIFE BEGINS AFTER',
+    highlightWord: 'FLAVOUR',
+    blurb: 'Elevate your daily ritual with coffee that’s more than a drink — it’s a connection to nature, tradition, and the people who make it extraordinary.',
+    hours: {
+      weekdays: {
+        label: 'MON – THURS',
+        time: '09.00–21.00',
+      },
+      weekends: {
+        label: 'FRI – SUN',
+        time: '09.00–23.00',
+      },
+    },
   },
+
 
   // About Us content
   about: {
