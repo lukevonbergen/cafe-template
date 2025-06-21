@@ -148,8 +148,7 @@ export const siteConfig = {
     openingHours: [
       'Monday–Sunday: 8:00 AM – 7:30 PM',
     ],
-    mapEmbedUrl:
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.1234567890123!2d-0.7412345678901234!3d51.62912345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48768f1234567890%3A0xabcdef1234567890!2sThe%20Front%20Room!5e0!3m2!1sen!2suk!4v171XXXXX1234567890!5m2!1sen!2suk'
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.611056412108!2d-0.753058921656336!3d51.63033357184158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766106de5dd38f%3A0x422dab0f29c1966b!2sThe%20Front%20Room!5e0!3m2!1sen!2suk!4v1750507896206!5m2!1sen!2suk',
     },
 
   // Gallery image grid
