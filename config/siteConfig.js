@@ -245,7 +245,7 @@ export const siteConfig = {
       description: 'Pop in for brunch, cake or a cup of our famous coffee. We’re just inside the city walls near Monk Bar.',
       address: '5C Goodramgate, York YO1 7LJ, United Kingdom',
       phone: '+441904123456',
-      phoneDisplay: '01904 123456',
+      phoneDisplay: '07940 210670',
       email: 'hello@wheldrakes.co.uk',
       image: {
         src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9e/b1/e0/photo1jpg.jpg?w=1000&h=-1&s=1',
