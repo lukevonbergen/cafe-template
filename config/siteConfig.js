@@ -108,8 +108,8 @@ export const siteConfig = {
 
   // 🦸 Hero section config (image, headline, hours)
   hero: {
-    image: 'https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg',
-    imageAlt: 'Close-up espresso machine',
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9e/b1/e0/photo1jpg.jpg?w=1000&h=-1&s=1',
+    imageAlt: 'Wheldrakes Cafe & Coffee',
     heading: 'ALWAYS FRESH, ALWAYS',
     highlightWord: 'WELCOMING',
     blurb: 'A cosy independent café in York. Fresh cakes, brilliant brunch, and a no-bookings policy that keeps things simple.',
@@ -159,12 +159,12 @@ export const siteConfig = {
   // 🖼️ Gallery grid
   gallery: {
     images: [
-      { src: 'https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg', alt: 'Coffee and croissant on a table' },
-      { src: 'https://images.pexels.com/photos/374147/pexels-photo-374147.jpeg', alt: 'Barista making espresso' },
-      { src: 'https://images.pexels.com/photos/618491/pexels-photo-618491.jpeg', alt: 'Café brunch setting' },
-      { src: 'https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg', alt: 'Latte art in coffee cup' },
-      { src: 'https://images.pexels.com/photos/1833321/pexels-photo-1833321.jpeg', alt: 'Cafe interior with tables' },
-      { src: 'https://images.pexels.com/photos/5857499/pexels-photo-5857499.jpeg', alt: 'Selection of cakes on counter' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7c/0d/86/our-window-display.jpg?w=1000&h=-1&s=1', alt: 'Coffee and croissant on a table' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/66/2a/72/full-english.jpg?w=1000&h=-1&s=1', alt: 'Barista making espresso' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/f7/16/dc/easter-2022.jpg?w=1000&h=-1&s=1', alt: 'Café brunch setting' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/b7/4f/6d/wheldrakes.jpg?w=1000&h=-1&s=1', alt: 'Latte art in coffee cup' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/b7/4f/71/wheldrakes.jpg?w=1000&h=-1&s=1', alt: 'Cafe interior with tables' },
+      { src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ba/00/a7/photo1jpg.jpg?w=1000&h=-1&s=1', alt: 'Selection of cakes on counter' },
     ],
   },
 
@@ -195,7 +195,7 @@ export const siteConfig = {
   hoursLocation: {
     hours: 'Thurs–Mon: 8:30 AM – 3:30 PM',
     address: '5C Goodramgate, York YO1 7LJ',
-    email: '', // Can add contact email here
+    email: 'hello@wheldrakes.co.uk', // Can add contact email here
   },
 
   // 📢 Features section near top of homepage
@@ -214,20 +214,20 @@ export const siteConfig = {
     title: 'What We’re Known For',
     items: [
       {
-        label: 'Eggs Benedict',
-        image: 'https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg',
+        label: 'Full English',
+        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/aa/cd/94/photo0jpg.jpg?w=1000&h=-1&s=1',
       },
       {
         label: 'Real Hot Chocolate',
-        image: 'https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg',
+        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c9/50/4e/wheldrakes.jpg?w=800&h=-1&s=1',
       },
       {
-        label: 'Homemade Cakes',
-        image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg',
+        label: 'Brunch',
+        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/66/2a/71/flatbreads-are-back.jpg?w=1000&h=-1&s=1',
       },
       {
         label: 'House Blend Coffee',
-        image: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg',
+        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/b7/4f/71/wheldrakes.jpg?w=1000&h=-1&s=1',
       },
     ],
     cta: {
