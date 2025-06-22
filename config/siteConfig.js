@@ -235,4 +235,41 @@ export const siteConfig = {
       href: '/menu',
     },
   },
+
+  contact: {
+    intro: {
+      heading: 'We’d Love to Hear from You',
+      blurb: 'Whether you’re booking a table, asking about allergens or just saying hello — we’re always here.',
+    },
+    details: {
+      description: 'Pop in for brunch, cake or a cup of our famous coffee. We’re just inside the city walls near Monk Bar.',
+      address: '5C Goodramgate, York YO1 7LJ, United Kingdom',
+      phone: '+441904123456',
+      phoneDisplay: '01904 123456',
+      email: 'hello@wheldrakes.co.uk',
+      image: {
+        src: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9e/b1/e0/photo1jpg.jpg?w=1000&h=-1&s=1',
+        alt: 'Friendly café interior',
+      },
+    },
+    formspreeId: 'mrbkanyw',
+    form: {
+      heading: 'Send Us a Message',
+      fields: {
+        name: {
+          label: 'Name',
+          placeholder: 'Your full name',
+        },
+        email: {
+          label: 'Email',
+          placeholder: 'you@example.com',
+        },
+        message: {
+          label: 'Message',
+          placeholder: 'What would you like to ask or tell us?',
+        },
+      },
+      button: 'Send Message',
+    },
+  },
 };
