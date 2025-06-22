@@ -1,42 +1,42 @@
 // config/siteConfig.js
 
 export const siteConfig = {
-  // Site Name
-  siteName: 'The Front Room',
+  // 🏷️ Site Name
+  siteName: 'Wheldrakes York',
 
-  // Metadata used across Next.js pages
+ // Metadata used across Next.js pages
   metadata: {
     base: {
-      title: 'The Front Room – Coffee Lounge in High Wycombe',
+      title: 'Wheldrakes – Independent Café in York',
       description:
-        'The Front Room is an award-winning independent coffee lounge in High Wycombe offering specialty coffee, cocktails, brunch and community events in a plant-filled, dog-friendly space.',
+        'Wheldrakes is a cosy, family-run café in the heart of York offering brunch, cakes, hot drinks and a warm welcome – no bookings, just turn up.',
       icons: {
         icon: '/favicon.ico',
       },
     },
     about: {
-      title: 'About | The Front Room',
+      title: 'About | Wheldrakes',
       description:
-        'Learn about The Front Room in High Wycombe – our passion for plants, sustainability, inclusivity and great coffee.',
+        'Discover more about Wheldrakes – a warm, independent café near Monk Bar in York, known for its food, service and relaxing vibe.',
     },
     contact: {
-      title: 'Contact Us | The Front Room',
+      title: 'Contact Us | Wheldrakes',
       description:
-        'Get in touch with The Front Room or find us in the heart of High Wycombe.',
+        'Get in touch or visit Wheldrakes on Goodramgate in York. We’re open Thursday to Monday for brunch and drinks.',
     },
     gallery: {
-      title: 'Gallery | The Front Room',
+      title: 'Gallery | Wheldrakes',
       description:
-        'Explore our cosy lounge, vibrant events and lush plant décor.',
+        'See inside Wheldrakes café – a cosy, friendly space serving great coffee, cakes and brunch in York.',
     },
   },
 
-  // Font settings (used for global Tailwind utility control)
+  // 🔤 Font choices (loaded via Google Fonts)
   fonts: {
-    base: `'Urbanist', sans-serif`,
-    heading: `'Shrikhand', cursive`,
-    baseClass: 'font-urbanist',
-    headingClass: 'font-shrikhand',
+    base: `'Urbanist', sans-serif`,         // Clean, modern sans-serif for body text
+    heading: `'Shrikhand', cursive`,        // Handwritten-style font for titles
+    baseClass: 'font-urbanist',             // Tailwind class token for body font
+    headingClass: 'font-shrikhand',         // Tailwind class token for headings
     google: {
       base: 'Urbanist',
       heading: 'Shrikhand',
@@ -44,39 +44,39 @@ export const siteConfig = {
     },
   },
 
-  // Brand Colours (used in components as visual identity)
+  // 🎨 Brand Colours (used throughout the site)
   brand: {
-    primary: '[#5E3023]',           // Used for headings (deep coastal blue)
-    secondary: 'bg-[#C08552]',      // Section backgrounds (soft seafoam)
-    accent: 'bg-[#78ADA5]',         // CTAs, buttons (bright ocean blue)
-    textDark: 'text-[#362415]',    // Strong default text
-    textLight: 'text-[#F3E9DC]',      // Light-on-dark contrast
-    muted: 'text-gray-500',       // Used for captions, footers
+    primary: '[#5E3023]',           // Dark brown – used for headings and hero highlights
+    secondary: 'bg-[#C08552]',      // Warm tan – background for accent sections
+    accent: 'bg-[#78ADA5]',         // Seafoam green – used for buttons and CTAs
+    textDark: 'text-[#362415]',     // Very dark brown – default body text on light backgrounds
+    textLight: 'text-[#F3E9DC]',    // Cream – used for text on dark backgrounds
+    muted: 'text-gray-500',         // Grey – for captions, secondary text
   },
 
-  // Class tokens mapped to Tailwind utility classes
+  // 🧩 Class-based style tokens for easier utility reuse
   styles: {
-    bgLight: 'bg-[#F3E9DC]',              // Background for Hero, About, etc.
-    bgPrimary: 'bg-[#78ADA5]',          
-    highlightColour: 'text-[#78ADA5]',         // Highlight colour for the hero word
-    textPrimary: 'text-[#5E3023]',        // Used in headings and CTAs
-    textMuted: 'text-gray-600',         // For footer/subtle copy
-    textSubtle: 'text-[#362415]',        // For general body content
-    borderLight: 'border-gray-200',     // Gallery, About, etc.
-    borderDark: 'border-gray-400',      // Stronger dividers
+    bgLight: 'bg-[#F3E9DC]',        // Pale cream background (used in About/Location sections)
+    bgPrimary: 'bg-[#78ADA5]',      // Accent background – seafoam (used in strips/banners)
+    highlightColour: 'text-[#78ADA5]',  // Same seafoam – used to highlight hero word
+    textPrimary: 'text-[#5E3023]',  // Brand heading colour – dark brown
+    textMuted: 'text-gray-600',     // Neutral grey text
+    textSubtle: 'text-[#362415]',   // Slightly softened dark brown – for paragraph content
+    borderLight: 'border-gray-200', // Soft borders (section dividers etc.)
+    borderDark: 'border-gray-400',  // Stronger borders (e.g. around cards or footer)
   },
 
-  // Banner strip at the top of the page
+  // 📣 Optional top banner strip
   banner: {
     show: true,
-    message: 'Award-winning coffee lounge and events space in High Wycombe.',
+    message: 'Cosy café near Monk Bar. Walk-ins only.',
     cta: {
-      label: 'Explore Our Menu',
+      label: 'View Our Menu',
       href: '/menu',
     },
   },
 
-  // Main nav links in the header and mobile menu
+  // 🧭 Main navigation bar links
   nav: {
     links: [
       { label: 'Home', href: '/' },
@@ -86,9 +86,9 @@ export const siteConfig = {
     ],
   },
 
-  // Footer links, social links, copyright
+  // 🦶 Footer content and social links
   footer: {
-    copyright: 'The Front Room',
+    copyright: 'Wheldrakes York',
     nav: [
       { label: 'Menu', href: '/menu' },
       { label: 'About', href: '/about' },
@@ -96,66 +96,67 @@ export const siteConfig = {
       { label: 'Contact', href: '/contact' },
     ],
     social: {
-      instagram: '',      // Full URL
-      facebook: '',       // Full URL
-      tripadvisor: '',    // Full URL
-      linkedin: '',       // Full URL
-      tiktok: '',         // Full URL
-      youtube: '',        // Optional
-      twitter: '',        // Optional
-      },
+      instagram: 'https://instagram.com/wheldrakes_cafe',
+      facebook: 'https://facebook.com/wheldrakes',
+      tripadvisor: 'https://www.tripadvisor.co.uk/Restaurant_Review-g186346-d7394137-Reviews-Wheldrakes-York_North_Yorkshire_England.html',
+      linkedin: '',       // Add if applicable
+      tiktok: '',         // Add if applicable
+      youtube: '',        // Add if applicable
+      twitter: 'https://twitter.com/wheldrakescafe',
+    },
   },
 
+  // 🦸 Hero section config (image, headline, hours)
   hero: {
     image: 'https://images.pexels.com/photos/3262277/pexels-photo-3262277.jpeg',
     imageAlt: 'Close-up espresso machine',
-    heading: 'LIFE BEGINS AFTER',
-    highlightWord: 'FLAVOUR',
-    blurb: 'Elevate your daily ritual with coffee that’s more than a drink — it’s a connection to nature, tradition, and the people who make it extraordinary.',
+    heading: 'ALWAYS FRESH, ALWAYS',
+    highlightWord: 'WELCOMING',
+    blurb: 'A cosy independent café in York. Fresh cakes, brilliant brunch, and a no-bookings policy that keeps things simple.',
     hours: {
       weekdays: {
-        label: 'MON – THURS',
-        time: '09.00–21.00',
+        label: 'THURS – MON',
+        time: '08.30–15.30',
       },
       weekends: {
-        label: 'FRI – SUN',
-        time: '09.00–23.00',
+        label: 'TUES & WEDS',
+        time: 'Closed',
       },
     },
   },
 
-
-  // About Us content
+  // 🧾 About Us content
   about: {
-    heading: 'A Space to Feel Good',
-    subheading: `We’re a community-centred, eco-conscious lounge with a passion for coffee, plants, folk, dogs and local makers. Inclusive and quirky: queer-friendly, body-positive, neurodivergent safe space.`,
+    heading: 'A Warm Welcome Awaits',
+    subheading: `We’re a small, family-run café offering house-blend coffee, homemade cakes and a homely setting – right in the heart of York.`,
     features: [
       {
-        title: 'Sustainably Minded',
-        text: 'We source locally and keep things green—from our décor to our packaging.',
+        title: 'Fresh & Homemade',
+        text: 'Our cakes, brunches and drinks are made fresh every day on-site.',
       },
       {
-        title: 'Events & Workshops',
-        text: 'Join us for sushi-making, life drawing, terrarium nights and more in our flexible space.',
+        title: 'Cosy & Relaxed',
+        text: 'A no-reservations policy and friendly staff keep things laid-back and welcoming.',
       },
     ],
   },
 
-  // Location / Contact section content
+  // 🗺️ Contact & Location section
   location: {
-    heading: 'Visit Us',
-    text: 'Find us on Castle Street for specialty coffee, brunch and events in a dog-friendly, plant-filled lounge.',
+    heading: 'Find Us',
+    text: 'Pop in for brunch, cake or a cup of our famous coffee. We’re just inside the city walls near Monk Bar.',
     address: [
-      'The Front Room',
-      '9 Castle Street, High Wycombe HP13 6RZ, United Kingdom',
+      'Wheldrakes Café',
+      '5C Goodramgate, York YO1 7LJ, United Kingdom',
     ],
     openingHours: [
-      'Monday–Sunday: 8:00 AM – 7:30 PM',
+      'Thursday–Monday: 8:30 AM – 3:30 PM',
+      'Closed Tuesdays & Wednesdays',
     ],
-    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.611056412108!2d-0.753058921656336!3d51.63033357184158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766106de5dd38f%3A0x422dab0f29c1966b!2sThe%20Front%20Room!5e0!3m2!1sen!2suk!4v1750507896206!5m2!1sen!2suk',
-    },
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d937.997835447967!2d-1.0796764707748137!3d53.9624694620838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931a5aefbc941%3A0x247e4a034f68dee!2sWheldrakes!5e0!3m2!1sen!2suk!4v1750584802375!5m2!1sen!2suk',
+  },
 
-  // Gallery image grid
+  // 🖼️ Gallery grid
   gallery: {
     images: [
       { src: 'https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg', alt: 'Coffee and croissant on a table' },
@@ -167,70 +168,70 @@ export const siteConfig = {
     ],
   },
 
-  // Testimonials section
+  // ⭐ Testimonials section
   testimonials: {
-    heading: 'What People Are Saying',
-    subheading: 'Feedback from folks who love our cosy lounge.',
+    heading: 'Loved by Locals & Visitors',
+    subheading: 'See why people keep coming back to Wheldrakes.',
     entries: [
       {
-        quote: "Absolutely beautiful brunch and the best coffee in town. The cakes are divine and the staff couldn’t be friendlier.",
-        name: "Emma S.",
+        quote: "The friendliest welcome and the most delicious brunch I've had in York. No fuss – just good food and people.",
+        name: "Amy L.",
+        title: "TripAdvisor",
+      },
+      {
+        quote: "Cosy little gem near the city walls. Walked in on a whim and loved everything from the coffee to the vibe.",
+        name: "Ben T.",
         title: "Google Review",
       },
       {
-        quote: "Cosy atmosphere with quality food. The eggs benedict was spot on — perfectly poached and full of flavour.",
-        name: "Tom H.",
-        title: "Google Review",
-      },
-      {
-        quote: "Such a gem! Great menu, lovely service, and the scones were hands down the best I’ve had in ages.",
-        name: "Charlotte R.",
-        title: "Google Review",
+        quote: "Homemade cakes that taste just like they should. Will definitely return next time I’m in town.",
+        name: "Sophie G.",
+        title: "Facebook",
       },
     ]
   },
 
-  // ➕ NEW: Hours & Location strip (used in HoursLocationBar.jsx)
+  // ⏰ Strip with hours and location (shown on most pages)
   hoursLocation: {
-    hours: 'Mon–Sun: 8 AM – 4 PM',
-    address: '173 High Street, Berkhamsted HP4 3HB',
-    email: 'hello@thejestercafe.co.uk',
+    hours: 'Thurs–Mon: 8:30 AM – 3:30 PM',
+    address: '5C Goodramgate, York YO1 7LJ',
+    email: '', // Can add contact email here
   },
 
-  // ➕ NEW: Intro features section (used in IntroFeatureSection.jsx)
+  // 📢 Features section near top of homepage
   intro: {
-    title: 'Enjoy the Rich and Robust Flavours',
-    description: 'Locally roasted coffee, supporting both your taste buds and the local community.',
+    title: 'A True Taste of York',
+    description: 'We serve freshly made food, house blend coffee, and real hot chocolate – right in the heart of the city.',
     features: [
-      { title: 'Premium Quality', text: 'Small-batch roasted beans, expertly brewed by trained baristas.' },
-      { title: 'Cozy Atmosphere', text: 'Relax with comfy seating, free Wi-Fi, and the scent of fresh pastries.' },
-      { title: 'Community Focused', text: 'Local suppliers, inclusive vibes, and regular community events.' },
+      { title: 'No Bookings, Just Brunch', text: 'Walk-ins only. Good vibes always.' },
+      { title: 'Locally Loved', text: '5-star rated by over a thousand happy customers.' },
+      { title: 'Independent & Family-Run', text: 'Run with care, love and attention – from our family to yours.' },
     ],
   },
 
-  // ➕ NEW: Menu highlight section (used in MenuHighlightSection.jsx)
+  // 🍳 Optional section to highlight menu categories
   menuHighlights: {
-    title: 'Explore Our Favourites',
+    title: 'What We’re Known For',
     items: [
       {
-        label: 'Espresso-Based',
+        label: 'Eggs Benedict',
         image: 'https://images.pexels.com/photos/302901/pexels-photo-302901.jpeg',
       },
       {
-        label: 'Brewed Coffee',
+        label: 'Real Hot Chocolate',
         image: 'https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg',
       },
       {
-        label: 'Tea Selection',
+        label: 'Homemade Cakes',
         image: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg',
       },
       {
-        label: 'Pastries & Cakes',
+        label: 'House Blend Coffee',
         image: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg',
       },
     ],
     cta: {
-      label: 'See Full Menu',
+      label: 'Browse Full Menu',
       href: '/menu',
     },
   },
