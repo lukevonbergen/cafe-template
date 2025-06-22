@@ -5,7 +5,7 @@ import {
   Youtube,
   Linkedin,
 } from 'lucide-react';
-import { FaTripadvisor, FaTiktok } from 'react-icons/fa6';
+import { FaTripadvisor, FaTiktok } from 'react-icons/fa';
 import { siteConfig } from '@/config/siteConfig';
 
 export default function Footer() {
