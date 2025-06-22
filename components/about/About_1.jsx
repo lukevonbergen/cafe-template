@@ -11,7 +11,7 @@ export default function AboutUs() {
         {/* Left: Image */}
         <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-md">
           <Image
-            src="https://images.pexels.com/photos/5857499/pexels-photo-5857499.jpeg"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/f0/b5/8a/wheldrakes.jpg?w=1000&h=-1&s=1"
             alt="Wheldrakes café counter"
             fill
             className="object-cover rounded-xl"
